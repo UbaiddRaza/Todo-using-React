@@ -6,13 +6,10 @@ const Home = () => {
         <div>
             <h2>Home</h2>
             <Form>
-                <Form.Group controlId="todoInput">
-                    <Form.Label>Todo</Form.Label>
-                    <Form.Control type="text" placeholder="Enter todo" />
-                </Form.Group>
-                <Button variant="primary" type="submit">
-                    Add Todo
-                </Button>
+               
+                   <h1>TODO APP</h1>
+                    <input type="text" placeholder='enter todo' /> 
+              <button>Add todo</button>
             </Form>
         </div>
     );

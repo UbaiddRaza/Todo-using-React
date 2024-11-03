@@ -15,9 +15,7 @@ const Login = () => {
 
         <input type="password" placeholder="Password" required  />
 
-        <Button variant="primary" type="submit">
-          Register
-        </Button>
+        <button>Login</button>
       </Form>
     </>
   );
