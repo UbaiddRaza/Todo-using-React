@@ -20,7 +20,7 @@ const Login = () => {
       .then((userCredential) => {
         const user = userCredential.user;
         console.log(user);
-        navigate('/')
+        navigate('/home')
 
       })
       .catch((error) => {

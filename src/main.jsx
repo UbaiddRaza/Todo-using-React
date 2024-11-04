@@ -1,6 +1,6 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider, Navigate } from 'react-router-dom';
 import Layout from './Layout.jsx'; 
 import Home from './pages/Home.jsx';
 import Login from './pages/Login.jsx';
@@ -14,7 +14,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "",
-        element: <Home />, 
+        element: <Navigate to="/register" />, 
       },
       {
         path: "login",
@@ -23,6 +23,10 @@ const router = createBrowserRouter([
       {
         path: "register",
         element: <Register />,
+      },
+      {
+        path: "home",
+        element: <Home />, 
       },
     ],
   },
