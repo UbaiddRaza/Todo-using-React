@@ -14,14 +14,9 @@ function BasicExample() {
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="register">register</Nav.Link>
             <Nav.Link href="login">Login</Nav.Link>
-             
-               
-           
-             
+
               <NavDropdown.Divider />
-              
             
-             
             </Nav>
         </Navbar.Collapse>
     </Container>
